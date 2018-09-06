@@ -2,4 +2,9 @@
 label: Newsletter
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: blocks
+  template_types:
+  - header
+  label: Components
+  name: components
