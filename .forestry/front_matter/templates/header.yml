@@ -9,7 +9,9 @@ fields:
   description: ''
   config:
     required: true
-- type: blocks
-  name: header
-  label: Header
-  description: E-Mail Header
+- type: file
+  name: header-image
+  label: Titelbild
+  description: ''
+  config:
+    maxSize: '4'
