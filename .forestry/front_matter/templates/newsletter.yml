@@ -16,3 +16,5 @@ fields:
   name: modules
   description: Textbereiche, Bilder und andere Module, die Sie der Mail hinzufügen
     können.
+pages:
+- test-vom-06-09.md
