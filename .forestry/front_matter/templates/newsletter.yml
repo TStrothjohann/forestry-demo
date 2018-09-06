@@ -1,10 +1,17 @@
 ---
 label: Newsletter
-hide_body: false
+hide_body: true
 is_partial: false
 fields:
+- type: text
+  label: Betreff
+  name: subject
+  config:
+    required: true
 - type: blocks
   template_types:
   - header
-  label: Components
-  name: components
+  label: Module
+  name: modules
+  description: Textbereiche, Bilder und andere Module, die Sie der Mail hinzufügen
+    können.
