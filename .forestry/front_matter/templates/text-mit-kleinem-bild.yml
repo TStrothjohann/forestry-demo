@@ -1,0 +1,18 @@
+---
+label: Text mit kleinem Bild
+hide_body: false
+is_partial: true
+display_field: body
+fields:
+- type: textarea
+  label: Textabschnitt
+  name: body
+- type: file
+  label: Bild
+  name: image
+  config:
+    maxSize: '4'
+- type: boolean
+  name: align-right
+  label: Rechtsbündig
+  description: Standard ist linksbündig. Dieser Toggle schiebt das Bild nach rechts.
