@@ -2,10 +2,4 @@
 label: Newsletter
 hide_body: false
 is_partial: false
-fields:
-- type: blocks
-  label: Newsletter
-  name: newsletter
-  description: Template zum Erstellen von ZON Newslettern
-  config:
-    min: '1'
+fields: []
