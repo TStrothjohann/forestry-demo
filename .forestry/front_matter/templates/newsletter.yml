@@ -10,6 +10,7 @@ fields:
     required: true
 - type: blocks
   template_types:
+  - text-mit-kleinem-bild
   - header
   label: Module
   name: modules
