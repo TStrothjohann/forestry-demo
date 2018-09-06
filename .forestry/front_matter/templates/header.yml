@@ -3,6 +3,12 @@ label: Header
 hide_body: false
 is_partial: true
 fields:
+- type: text
+  label: Titelzeile
+  name: title
+  description: ''
+  config:
+    required: true
 - type: blocks
   name: header
   label: Header
