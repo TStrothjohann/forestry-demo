@@ -1,0 +1,9 @@
+---
+label: Header
+hide_body: false
+is_partial: true
+fields:
+- type: blocks
+  name: header
+  label: Header
+  description: E-Mail Header
