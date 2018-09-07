@@ -39,11 +39,11 @@ sections:
   templates:
   - project
 - type: directory
-  label: Data
   path: data
-  match: "*.yaml, *.json"
-  new_doc_ext: ".yaml"
+  label: Data
   create: all
+  match: "*.yaml, *.json"
+  new_doc_ext: yaml
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

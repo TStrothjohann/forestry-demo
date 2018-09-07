@@ -1,0 +1,19 @@
+---
+label: Anzeige
+hide_body: false
+is_partial: true
+fields:
+- type: file
+  name: image
+  label: Bild
+  config:
+    maxSize: '3'
+- type: textarea
+  label: ALT-Tag
+  name: alt-tag
+- type: text
+  name: link
+  label: Link
+  description: Wohin soll die Anzeige linken?
+  config:
+    required: false
