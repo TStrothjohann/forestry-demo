@@ -1,0 +1,8 @@
+---
+label: Trenner
+hide_body: false
+is_partial: true
+fields:
+- type: boolean
+  name: is_big
+  label: Großer Trenner?
