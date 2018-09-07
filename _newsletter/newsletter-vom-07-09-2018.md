@@ -1,5 +1,5 @@
 ---
-title: Newsletter vom 07.09.2018
+title: Newsletter vom 07.09.2020
 date: 2018-09-07 22:33:06 +0200
 subject: Das ist der Betreff des Newsletters
 modules:
