@@ -30,6 +30,9 @@ modules:
     * Zweiter Punkt, den viele erfahren werden. Zweiter Punkt, den viele erfahren werden. Zweiter Punkt, den viele erfahren werden. Zweiter Punkt, den viele erfahren werden.
     * Dritter Punkt. Dritter Punkt. Dritter Punkt. Dritter Punkt.
 menu:
+  navigation:
+    weight: 2
+    title: ''
   footer:
     weight: 4
     title: ''
