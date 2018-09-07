@@ -10,8 +10,14 @@ fields:
     required: true
 - type: blocks
   template_types:
-  - text-mit-kleinem-bild
   - header
+  - headline
+  - text-mit-kleinem-bild
+  - grosses-bild
+  - infobox
+  - button
+  - trenner
+  - anzeige
   label: Module
   name: modules
   description: Textbereiche, Bilder und andere Module, die Sie der Mail hinzufügen
