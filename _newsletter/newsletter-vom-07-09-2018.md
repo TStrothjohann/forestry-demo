@@ -36,6 +36,5 @@ menu:
   footer:
     weight: 4
     title: ''
-published: false
 
 ---
