@@ -5,7 +5,7 @@ is_partial: false
 fields:
 - type: text
   label: Betreff
-  name: subject
+  name: title
   config:
     required: true
 - type: blocks
