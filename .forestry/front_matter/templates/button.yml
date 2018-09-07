@@ -1,0 +1,11 @@
+---
+label: Button
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  label: Button-Label
+  name: button-label
+- type: text
+  name: link
+  label: Link
