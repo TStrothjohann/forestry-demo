@@ -7,10 +7,10 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: ''
+  path: _newsletter
   label: Newsletter
   create: all
-  match: "**/*"
+  match: "*"
   templates:
   - newsletter
 - type: jekyll-posts
