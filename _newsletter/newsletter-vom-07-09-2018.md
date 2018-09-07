@@ -29,6 +29,10 @@ modules:
     * Erster Punkt, den alle erfahren müssen. Erster Punkt, den alle erfahren müssen. Erster Punkt, den alle erfahren müssen.
     * Zweiter Punkt, den viele erfahren werden. Zweiter Punkt, den viele erfahren werden. Zweiter Punkt, den viele erfahren werden. Zweiter Punkt, den viele erfahren werden.
     * Dritter Punkt. Dritter Punkt. Dritter Punkt. Dritter Punkt.
+menu:
+  footer:
+    weight: 1
+    title: ''
 published: false
 
 ---
