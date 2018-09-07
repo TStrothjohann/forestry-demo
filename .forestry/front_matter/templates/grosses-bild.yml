@@ -1,0 +1,18 @@
+---
+label: Großes Bild
+hide_body: false
+is_partial: true
+fields:
+- type: file
+  label: Bild
+  name: image
+- type: textarea
+  name: alt
+  label: ALT
+- type: textarea
+  name: caption
+  label: Caption
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
