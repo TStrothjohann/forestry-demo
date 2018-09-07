@@ -31,7 +31,7 @@ modules:
     * Dritter Punkt. Dritter Punkt. Dritter Punkt. Dritter Punkt.
 menu:
   footer:
-    weight: 1
+    weight: 4
     title: ''
 published: false
 
