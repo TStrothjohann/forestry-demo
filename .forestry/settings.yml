@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: ''
   label: Newsletter
@@ -11,8 +13,6 @@ sections:
   match: "**/*"
   templates:
   - newsletter
-- type: heading
-  label: Content
 - type: jekyll-posts
   label: Posts
   create: all
