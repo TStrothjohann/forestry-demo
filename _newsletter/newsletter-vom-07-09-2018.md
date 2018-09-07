@@ -31,8 +31,8 @@ modules:
     * Dritter Punkt. Dritter Punkt. Dritter Punkt. Dritter Punkt.
 menu:
   navigation:
-    weight: 2
-    title: ''
+    weight: 3
+    title: Newslettertest
   footer:
     weight: 4
     title: ''
