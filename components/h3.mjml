@@ -1,0 +1,7 @@
+<mj-section>
+    <mj-column>
+        <mj-text mj-class="text--sans-serif" padding-bottom="0">
+            <h3>h3 - Hier kommt jetzt eine Liste</h3>
+        </mj-text>
+    </mj-column>
+</mj-section>

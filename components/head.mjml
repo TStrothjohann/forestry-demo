@@ -1,0 +1,176 @@
+<mj-head>
+    <mj-title>
+        <%= attributes.subject %>
+    </mj-title>
+    <mj-preview>
+        <%= attributes.title %>
+    </mj-preview>
+    <mj-style>
+        @media screen {
+            @font-face {
+                font-family: "TabletGothic";
+                src: url("https://static.zeit.de/assets/latest/fonts/tabletgothic/TabletGothic-Regular.woff2") format("woff2"),url("https://static.zeit.de/assets/latest/fonts/tabletgothic/TabletGothic-Regular.woff") format("woff");
+                font-weight: normal;
+                font-style: normal
+            }
+
+            @font-face {
+                font-family: "TabletGothic";
+                src: url("https://static.zeit.de/assets/latest/fonts/tabletgothic/TabletGothic-Italic.woff2") format("woff2"),url("https://static.zeit.de/assets/latest/fonts/tabletgothic/TabletGothic-Italic.woff") format("woff");
+                font-weight: normal;
+                font-style: italic
+            }
+
+            @font-face {
+                font-family: "TabletGothic";
+                src: url("https://static.zeit.de/assets/latest/fonts/tabletgothic/TabletGothic-Bold.woff2") format("woff2"),url("https://static.zeit.de/assets/latest/fonts/tabletgothic/TabletGothic-Bold.woff") format("woff");
+                font-weight: bold;
+                font-style: normal
+            }
+
+            @font-face {
+                font-family: "FranziskaWebPro";
+                src: url("https://static.zeit.de/assets/latest/fonts/franziska/FranziskaWebPro.woff") format("woff");
+                font-weight: normal;
+                font-style: normal
+            }
+
+            @font-face {
+                font-family: "FranziskaWebPro";
+                src: url("https://static.zeit.de/assets/latest/fonts/franziska/FranziskaWebPro-Demibold.woff") format("woff");
+                font-weight: bold;
+                font-style: normal
+            }
+
+            @font-face {
+                font-family: "FranziskaWebPro";
+                src: url("https://static.zeit.de/assets/latest/fonts/franziska/FranziskaWebPro-Italic.woff") format("woff");
+                font-weight: normal;
+                font-style: italic
+            }
+        }
+
+        @media screen and (min-width: 480px) {
+            .text-desktop-right,
+            .text-desktop-right * {
+                text-align: right !important;
+            }
+        }
+        @media screen and (any-hover: hover) {
+            a:hover {
+                color: inherit !important;
+            }
+        }
+
+        a:-webkit-any-link {
+            color: inherit !important;
+        }
+    </mj-style>
+
+    <mj-style inline="inline">
+        .link,
+        a:not(.link--undercover) {
+            color: #B91109;
+        }
+        .link--undercover {
+            color: inherit;
+        }
+        .button {
+            letter-spacing: 1px
+        }
+        h1,
+        h2,
+        h3,
+        p {
+            margin: 0;
+        }
+        h1 {
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        h2.small {
+            font-size: 20px;
+        }
+        .text--inverse * {
+            color: #ffffff;
+        }
+        .font-smooth {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </mj-style>
+
+    <mj-attributes>
+    <!-- Anpassungsmöglichkeiten 
+
+        Hauptfarbe: 
+    -->
+        <!--
+        genereal rules: 
+            font-sizes:
+                24px for biggest text
+                20px for large text
+                16px for regular text
+                13px for smaller text
+            line-height:
+                use px size * 1.25 for 1.25 line height
+                use px size * 1.5 for 1.5 line height
+            spacing (only use padding! margin is not supported):
+                ! only use: 8px, 10px, 16px !
+                padding-bottom: 10px
+                padding-top: 10px
+            text-colors:
+                default text: #313131
+                light text: #696969
+            borders:
+                2px solid #cccccc
+
+
+        -->
+        <mj-class name="background--primary" background-color="#08889e"/>
+        <mj-class name="background--light" background-color="#f5f5f5" />
+        <mj-class name="background--dark" background-color="#44444c" />
+
+        <mj-class name="text--primary" color="#08889e"/>
+
+        <mj-class name="text--big" font-size="24px" font-weight="bold" line-height="30px"/>
+        <mj-class name="text--large" font-size="20px" font-weight="bold" line-height="25px"/>
+        <mj-class name="text--small" font-size="13px" />
+        <mj-class name="text--inverse" color="#ffffff" />
+        <mj-class name="text--light" color="#696969" />
+        <mj-class name="text" color="#313131" />
+
+        <mj-class name="align--right" align="right" />
+        <mj-class name="padding-top-bottom" padding-top="10px" padding-bottom="10px" />
+        <mj-class name="padding-left-right" padding-left="10px" padding-right="10px" />
+
+        <mj-class name="border" border-width="1px" border-color="#cccccc" />
+        <mj-class name="border--light" border-width="1px" border-color="#696969" />
+
+        <mj-class name="subheadline" font-family="FranziskaWebPro,Georgia,Palatino,Palatino Linotype,FreeSerif,serif" font-style="italic" color="#696969" />
+
+        <mj-class name="text--serif" font-family="FranziskaWebPro,Georgia,Palatino,Palatino Linotype,FreeSerif,serif" font-weight="regular" css-class="font-smooth"/>
+        <mj-class name="text--sans-serif" font-family="TabletGothic,Helvetica Neue,Helvetica,Arial,FreeSans,sans-serif"/>
+
+        <mj-class name="quote" font-family="FranziskaWebPro,Georgia,Palatino,Palatino Linotype,FreeSerif,serif" font-style="italic" font-size="20px" line-height="30px"/>
+        <mj-class name="spitzmarke" mj-class="text--primary" font-size="13px"/>
+
+        <!-- set default styles for elements -->
+        <mj-text 
+            mj-class="text"
+            font-size="16px"
+            font-family="FranziskaWebPro,Georgia,Palatino,Palatino Linotype,FreeSerif,serif" line-height="24px"/>
+        <mj-button 
+        mj-class="border text text--small"
+            background-color="#f5f5f5"
+            border="2px solid #cccccc"
+            font-weight="bold"
+            text-transform="uppercase"
+            padding="8px 16px"
+        />
+        <mj-section background-color="#FFFFFF" padding-top="0px" padding-bottom="0px" />
+    </mj-attributes>
+
+</mj-head>

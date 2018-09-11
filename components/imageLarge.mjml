@@ -1,0 +1,14 @@
+<mj-section>
+    <mj-column>
+        <mj-image
+             src="https://img.zeit.de/gesellschaft/zeitgeschehen/2018-07/nsu-prozessurteil-ende-demokratie-staerkung-bild/cinema__1000x428"
+             alt="Alternativ Text fuer ein großes Teaser Bild" />
+    </mj-column>
+</mj-section>
+<mj-section>
+    <mj-column>
+        <mj-text mj-class="text--serif text--light" font-style="italic" padding-top="0" padding-bottom="20px">
+        In meinem engen Freundeskreis versammeln sich sehr unterschiedliche Frauen.
+        </mj-text>
+    </mj-column>
+</mj-section>

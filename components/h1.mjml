@@ -1,0 +1,7 @@
+<mj-section>
+    <mj-column>
+        <mj-text mj-class="text--large text--sans-serif" align="center">
+            <h1>h1 - Was heute wichtig wird</h1>
+        </mj-text>
+    </mj-column>
+</mj-section>

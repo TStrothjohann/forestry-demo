@@ -1,0 +1,7 @@
+<mj-section>
+    <mj-column>
+        <mj-spacer height="20px" />
+        <mj-divider mj-class="border" width="100px"/>
+        <mj-spacer height="20px" />
+    </mj-column>
+</mj-section>

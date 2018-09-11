@@ -1,0 +1,17 @@
+<mj-section background-color="#EEEEF0" padding-top="20px" padding-bottom="20px">
+    <mj-column>
+        <mj-image
+            src="https://static.zeit.de/assets/latest/images/logo-zon-black.png"
+            alt="ZON-Logo" width="200px"
+        />
+        <mj-text mj-class="text--light text--sans-serif text--small" align="center">
+            Bildcredits: Credit 1 / © Bildagentur/Fotograf; Bildcredit 2/ ©Bildagentur/Fotograf; Bildcredit 3/ ©Bildagentur/Fotograf; etc.
+        </mj-text>
+        <mj-text mj-class="text--light text--sans-serif text--small" align="center">
+            Bitte antworten Sie nicht direkt auf diese E-Mail. Sie sind auf der liste dieses ZEIT ONLINE-Newsletters angemeldet als: <span class="link--undercover">[[EMAIL_TO]]</span> Um sich von der Liste abzumelden, <a href="[[UNSUB_LINK_DE]]" alt="hier klicken zum abmelden!" class="link--undercover">klicken Sie bitte hier</a>
+        </mj-text>
+        <mj-text mj-class="text--light text--sans-serif text--small" align="center">
+            © 2018 Zeitverlag Gerd Bucerius GmbH &amp; Co. KG.
+        </mj-text>
+    </mj-column>
+</mj-section>

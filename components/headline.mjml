@@ -1,0 +1,7 @@
+<mj-section>
+    <mj-column>
+        <mj-text mj-class="text--big" align="center">
+            <h2>Ich habe seit drei Jahren keinen Urlaub mehr gemacht</h2>
+        </mj-text>
+    </mj-column>
+</mj-section>

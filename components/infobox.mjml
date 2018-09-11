@@ -1,0 +1,16 @@
+<mj-section mj-class="padding-top-bottom padding-left-right">
+    <mj-column mj-class="background--light-gray padding-top-bottom" border="5px solid #cccccc">
+        <mj-text mj-class="text--sans-serif" padding-bottom="0">
+            <h3>h3 - Hier kommt jetzt eine Liste</h3>
+        </mj-text>
+        <mj-text>
+            <ul style="margin: 0; padding-left: 20px;">
+                <li style="padding-bottom: 10px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</li>
+
+                <li style="padding-bottom: 10px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</li>
+
+                <li style="padding-bottom: 10px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</li>
+            </ul>
+        </mj-text>
+    </mj-column>
+</mj-section>

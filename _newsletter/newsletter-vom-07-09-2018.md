@@ -4,14 +4,14 @@ date: 2018-09-07 22:33:06 +0200
 subject: Das ist der Betreff des Newsletters
 modules:
 - template: header
-  title: Newsletter vom 07.09.2018
+  title: Das ist der Titel des Headers Newsletter vom 07.09.2018
   header-image: "/uploads/2018/09/07/zon-logo.breit.jpg"
-- template: grosses-bild
+- template: imageLarge
   image: "/uploads/2018/02/17/bridge3.jpg"
   alt: Brücke im Nebel
   caption: Die Golden Gate Bridge _vermutlich_. In San Francisco eines der ganz großen
     Highlights.
-- template: text-mit-kleinem-bild
+- template: textWithImage
   body: |-
     # Überschrift des Textstücks
 

@@ -1,0 +1,17 @@
+<mj-section>
+    <mj-column>
+        <mj-image
+             padding-top="5px"
+             src="https://img.zeit.de/gesellschaft/zeitgeschehen/2018-07/nsu-prozessurteil-ende-demokratie-staerkung-bild/cinema__700x400"
+             alt="Alternativ Text fuer ein großes Teaser Bild"/>
+    </mj-column>
+    <mj-column>
+        <mj-text mj-class="spitzmarke text--sans-serif" padding-top="0px" padding-bottom="0px">Spitzmarke</mj-text>
+        <mj-text mj-class="text--large text--sans-serif" padding-top="0px" padding-bottom="10px">
+            <h2>Anklage im Cum-Ex-Skandal</h2>
+        </mj-text>
+        <mj-text mj-class="text--sans-serif" padding-top="0px" padding-bottom="0px">
+        In meinem engen Freundeskreis versammeln sich sehr unterschiedliche Frauen. Singles, Partnerinnen, berufstätige Mütter, Mütter mit Fulltime-Job zu Hause, Frauen, die sich gegen Kinder entschieden haben.
+        </mj-text>
+    </mj-column>
+</mj-section>

@@ -1,0 +1,9 @@
+<mj-section>
+    <mj-column>
+        <mj-text mj-class="text--small text--sans-serif align---right" padding-bottom="0">Anzeige</mj-text>
+        <mj-image
+             src="https://placehold.it/660x186/696969"
+             alt="ZON-Werbung"
+             href="https://www.zeit.de/index" padding-top="0"/>
+    </mj-column>
+</mj-section>

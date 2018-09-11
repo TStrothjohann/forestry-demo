@@ -1,0 +1,7 @@
+<mj-section padding-top="0" padding-bottom="0">
+    <mj-column>
+        <mj-text align="center" font-size="14px" color="#696969">
+            <a href="[[PERMALINK]]" class="link--undercover">Im Browser lesen</a>
+        </mj-text>
+    </mj-column>
+</mj-section>

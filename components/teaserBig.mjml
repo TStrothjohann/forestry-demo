@@ -1,0 +1,17 @@
+<mj-section>
+    <mj-column>
+        <mj-image
+             src="https://img.zeit.de/gesellschaft/zeitgeschehen/2018-07/nsu-prozessurteil-ende-demokratie-staerkung-bild/cinema__1000x428"
+             alt="Alternativ Text fuer ein großes Teaser Bild" />
+    </mj-column>
+</mj-section>
+<mj-section>
+    <mj-column>
+        <mj-text mj-class="text--big" font-family="TabletGothic,Helvetica Neue,Helvetica,Arial,FreeSans,sans-serif">
+            <h2>Ich habe seit drei Jahren keinen Urlaub mehr gemacht</h2>
+        </mj-text>
+        <mj-text>
+        In meinem engen Freundeskreis versammeln sich sehr unterschiedliche Frauen. Singles, Partnerinnen, berufstätige Mütter, Mütter mit Fulltime-Job zu Hause, Frauen, die sich gegen Kinder entschieden haben, Frauen, die Karriere machen und Frauen, die arbeiten, um ihre Reisen zu finanzieren.
+        </mj-text>
+    </mj-column>
+</mj-section>

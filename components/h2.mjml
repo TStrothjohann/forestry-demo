@@ -1,0 +1,7 @@
+<mj-section>
+    <mj-column>
+        <mj-text mj-class="text--sans-serif">
+            <h2>h2 - Lorem ipsum dolor sit et amet</h2>
+        </mj-text>
+    </mj-column>
+</mj-section>

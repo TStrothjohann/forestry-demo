@@ -4,7 +4,7 @@ var fs = require('fs')
  
 
 function compileMail(data) {
-	ejs.renderFile('./newsletter-template.ejs', {'modules': data}, {}, function(err, str){
+	ejs.renderFile('./newsletter-template.ejs', {'attributes': data}, {}, function(err, str){
   		if (err) throw err
 
 	    fs.writeFile('./test.mjml', str, function(){
@@ -21,7 +21,7 @@ fs.readFile('./_newsletter/newsletter-vom-07-09-2018.md', 'utf8', function(err, 
   var content = fm(data)
  
   // console.log(content.attributes)
-  compileMail(content.attributes.modules);
+  compileMail(content.attributes);
 })
 
 

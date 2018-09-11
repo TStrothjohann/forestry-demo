@@ -1,3 +1,12 @@
-<% modules.forEach(function(module){ %>
-	<%= module.template %>
-<% }); %>
+<mjml>
+	<%- include('components/head.mjml' , {attributes: attributes}); %>
+
+	<mj-body>
+		<% attributes.modules.forEach(function(module){ %>
+		    <%- include('components/' + module.template + '.mjml' , {module: module}); %>
+		<% }); %>
+
+
+		<%- include('components/footer.mjml' , {}); %>
+	</mj-body>
+</mjml>
