@@ -23,5 +23,6 @@ fields:
   description: Textbereiche, Bilder und andere Module, die Sie der Mail hinzufügen
     können.
 pages:
+- _newsletter/mein-schoner-newsletter.md
 - _newsletter/newsletter-vom-07-09-2018.md
 - test-vom-06-09.md
