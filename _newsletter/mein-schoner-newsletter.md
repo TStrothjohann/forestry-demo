@@ -8,6 +8,5 @@ modules:
 - template: text-mit-kleinem-bild
   body: "Bla blablabla. \n\nBla blablabla \n\nBla blablabla \n\nBla blablabla\n\n*
     Liste\n* Liste 2\n* Liste 3"
-published: false
 
 ---
