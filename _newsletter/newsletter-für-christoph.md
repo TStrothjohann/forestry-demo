@@ -9,6 +9,5 @@ modules:
   uberschrift: Überschrift
 - template: text-mit-kleinem-bild
   body: "`Hallo Forestry.`"
-published: false
 
 ---
